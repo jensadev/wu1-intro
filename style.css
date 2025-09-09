@@ -1,0 +1,21 @@
+main {
+    max-width: 56rem;
+    margin-inline: auto;
+}
+
+nav {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        li > a {
+            text-decoration: none;
+        }
+        li > a:hover {
+            text-decoration: underline;
+        }
+    }
+}
